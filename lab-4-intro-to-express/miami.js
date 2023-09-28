@@ -5,7 +5,7 @@ const expresshandlebars = require('express-handlebars')
 const app = express()
 
 //configure our express app to use handlebars
-app.engine('handlebars',expresshandlebars({
+app.engine('handlebars',expresshandlebars.engine({
 defaultlayout: 'main',
 })
 
@@ -14,15 +14,17 @@ app.set('view engine','handlebars')
 
 const port = process.env.port || 3000
 //routes go before 404 and 500
-app.get('/',(req,res)=>{
-    res.render('home')
+app.get('/',(req,res) => {
+    res.type('text/plain')
+    res.send('Miami Travel');
 })
 
-app.get('/',(req,res)=>{
-    res.render('about')
+app.get('/about',(req,res)=>{
+    res.type('text/plain')
+    res.send('About Miami Travel')
 })
-//this generates wrong bc the parameter names dont match - response should be res
-app.get('nightlife',(request,response)=>{
+
+app.get('nightlife',(req,res)=>{
     res.type('text/plain')
     res.send('Miami at Night')
 })
@@ -31,15 +33,15 @@ app.get('nightlife',(request,response)=>{
 app.use((req,res) => {
     res.type('text/plain')
     res.status(404)
-    res.render('404')
+    res.send('404 - not found')
 })
 
 //Server Error 500
-app.use((error,req,res,next) => {
-    console.log(error.message)
+app.use( (error,req,res,next) => {
+    console.error(error.message)
     res.type('text/plain')
     res.status(500)
-    res.render('500')
+    res.send('500 - server error')
 })
 
 

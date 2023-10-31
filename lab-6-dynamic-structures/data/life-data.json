@@ -1,5 +1,5 @@
 {
-    "title":"Welcome to Lisbon",
+    "title":"Local's Life",
     "slideshow":[
         "/img/slides/view.jpg",
         "/img/slides/beach1.jpg",
@@ -44,7 +44,7 @@
         },
         {
             "title":"Local History:",
-            "image":"/img/gallery/gallery_4.jpg",
+            "image":"/img/homepage/loc.jpg",
             "text":"Explore Lisbon's history, from the Age of Discoveries to contemporary politics. Inquire about their thoughts on the city's evolving identity.",
             "price":"Lisbon's rich history all in one tour!",
             "duration":"Call: +1 (792)205-3094 for more info." 

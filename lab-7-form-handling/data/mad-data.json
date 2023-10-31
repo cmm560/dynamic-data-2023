@@ -1,0 +1,81 @@
+{"fields": [ 
+    {
+        "type":"text",
+        "name":"adjective_1",
+        "desc":"Adjective"
+    },
+    {
+        "type":"text",
+        "name":"verb_1",
+        "desc":"Verb"
+    },
+    {
+        "type":"text",
+        "name":"male_in_room",
+        "desc":"Male in Room"
+    },
+    {
+        "type":"text",
+        "name":"city",
+        "desc":"City"
+
+    },
+    {
+        "type":"text",
+        "name":"noun_1",
+        "desc":"Noun"
+    },
+    {
+        "type":"text",
+        "name":"body_part_plural",
+        "desc":"Body Part (Plural)"
+    },
+    {
+    "type":"text",
+    "name":"occupation",
+    "desc":"Occupation"
+},
+{
+"type":"text",
+"name":"adjective_2",
+"desc":"adjective"
+},
+{
+"type":"text",
+"name":"occupation_2",
+"desc":"Occupation"
+},
+{
+"type":"text",
+"name":"noun_2",
+"desc":"Noun"
+},
+{
+"type":"text",
+"name":"adverb",
+"desc":"Adverb"
+},
+{
+"type":"text",
+"name":"verb_2",
+"desc":"Verb"
+},
+{
+"type":"text",
+"name":"body_part",
+"desc":"Body Part"
+},
+{
+"type":"text",
+"name":"noun_3",
+"desc":"Noun"
+},
+{
+"type":"text",
+"name":"number",
+"desc":"Number"
+}
+    
+
+
+]}

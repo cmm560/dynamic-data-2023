@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap');
+
+.montserrat { font-family: 'Bebas Neue', sans-serif; font-weight:400; }
+
+.montserrat-bold { font-family: 'Bebas Neue', sans-serif; font-weight: 600; }
+
+.oswald { font-family: 'Montserrat', sans-serif; font-weight:700; }
+
+body {
+    background-color: lightslategrey;
+}
+
+.white-bg {
+    background-color: white;
+}

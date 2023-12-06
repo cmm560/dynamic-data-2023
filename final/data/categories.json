@@ -1,0 +1,19 @@
+{"categories": [
+    {
+        "name":"Eyes",
+        "url":"/eyes",
+        "image":"/images/eyes.png"
+        },    {
+            "name":"Face",
+            "url":"/face",
+            "image":"/images/face.png"
+        }, 
+        {
+            "name":"Lips",
+            "url":"/lips",
+            "image":"/images/lips.png"
+        }
+]}
+
+
+ 

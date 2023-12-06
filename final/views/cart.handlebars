@@ -1,0 +1,9 @@
+{{#each cartProducts}}
+<li>{{this.product}}</li>
+{{/each}}
+
+*/ in handler:
+res.render("cart",{"cartProducts":cart}) check github
+
+in app.js:  
+app.post('/cart', handler) check github

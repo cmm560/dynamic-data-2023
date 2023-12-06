@@ -1,0 +1,18 @@
+{{#each category}}
+<h1></h1>
+
+{{#each users}}
+<ul> 
+    <li><strong>Name: </strong> {{this.firstname}} {{this.lastname}}</li>
+    <li><strong>Description: </strong> {{this.description}}</li>
+    <li><strong>Price: </strong> 
+    {{this.price}}<br>
+     {{#each this.images}}
+     {{this.src}}<br>
+    {{/each}}
+    </li>
+</ul>
+{{/each}}
+
+
+*/ in handler, add res.render('category',{"product"})
